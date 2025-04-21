@@ -16,5 +16,11 @@ yt-dlp -x --audio-format mp3 -o "C:/Users/zlc436/Desktop/OTHERS/mamarracha/cagat
 
 ## Decompose song by different instruments: 
 
-spleeter separate -C:/Users/zlc436/Desktop/OTHERS/mamarracha/cagatio/raw_data/criminal_cagatio.mp3 -p spleeter:5stems -o C:/Users/zlc436/Desktop/OTHERS/mamarracha/cagatio/output/1_decomposed/
+```
+#First go to the directory where the ffmpeg is:
+cd C:\Users\zlc436\Desktop\OTHERS\mamarracha\cagatio\raw_data\ffmpeg-2025-04-21-git-9e1162bdf1-full_build\bin
 
+#Next let's try running spleeter:
+spleeter separate C:/Users/zlc436/Desktop/OTHERS/mamarracha/cagatio/raw_data/criminal_cagatio.mp3 -p spleeter:2stems -o C:/Users/zlc436/Desktop/OTHERS/mamarracha/cagatio/output/1_decomposed/
+
+```
